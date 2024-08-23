@@ -14,6 +14,7 @@ function TodoList() {
             
                 <li key={item.id}>{item.todoItem}</li>
                 <button onClick={()=> dispatch(deleteTodoItem(item.id))}>delete</button>
+                <button>Update</button>
                 </div>
             ))}
         </ul>
